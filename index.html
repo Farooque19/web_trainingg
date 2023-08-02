@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+        .Login{
+            border-radius: 10px;
+            background-color: blue;
+            color: orange;
+            padding: 10px 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .Login:hover{
+            background-color: black;
+            color: aqua;
+            border-radius: 0%;
+        }
+        .box:hover{
+            height: 200px;
+            width: 200px;
+            border-radius: 0px 20px;
+            background-color: magenta;
+            transition: all 3s;
+        }
+        .image:hover{
+            border-radius: 10px;
+            transform: rotate3d(1,1,1, 45deg);
+            transition: all 4s;
+        }
+        a{
+            text-decoration: none;
+            border-radius:  10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="box"></div>
+    <button class="Login">Login</button>
+    <img src="war memorial.jpeg" alt="" class="image">
+    <br>
+    <a href="#">Login</a>
 </body>
 </html>
