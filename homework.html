@@ -1,0 +1,144 @@
+<!-- simple login page using HTML and CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+    <h1>Sign Up</h1>
+    <fieldset>
+        <legend style="color: blue;">Personal Information</legend>
+        <table>
+            <tr>
+                <td>
+                    <form action="Login details">
+                        <label for="firstname" style="color: green; font-family: sans-serif;"><b>First Name*</b></label>
+                        <br>
+                        <input required type="text" id="firstname" placeholder="First name">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="lastname" style="color: green; font-family: sans-serif;"><b>Last Name</b></label>
+                        <br>
+                        <input type="text" id="lastname" placeholder="Last Name">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="Email" style="padding-top: 10px;">
+                        <label for="email" style="color: green; font-family: sans-serif;"><b>Email*</b></label>
+                        <br>
+                        <input required type="email" id="email" placeholder="enter your Email">
+                    </form>
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        <form style="padding-top: 10px;">
+                            <label for="pass" style="font-family: sans-serif; color: green;"><b>Password*</b></label>
+                            <br>
+                            <input required type="password" id="pass" placeholder="Enter your password">
+                        </form>
+                    </td>
+                    <td>
+                        <form style="padding-top: 10px;">
+                            <label for="passw" style="font-family: sans-serif; color: green;"><b>Confirm Password*</b></label>
+                            <br>
+                            <input required type="password" id="passw" placeholder="enter your password agin">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form style="padding-top: 10px;">
+                            <label style="color: green; font-family: sans-serif;"><b>Gender:</b></label>
+                            <br>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </form>
+                    </td>
+                    <td>
+                        <form style="padding-top: 10px;">
+                            <label style="color: green; font-family: sans-serif;"><b>Hobbies:</b></label>
+                            <br>
+                            <input type="checkbox" id="music">
+                            <label for="music">Music</label>
+                            <input type="checkbox" id="sports">
+                            <label for="sports">Sports</label>
+                            <input type="checkbox" id="travel">
+                            <label for="travel">Travel</label>
+                            <input type="checkbox" id="movie">
+                            <label for="movie">Movies</label>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form style="padding-top: 10px;">
+                            <label for="income" style="color: green; font-family: sans-serif;"><b>Source of Income</b></label>
+                            <br>
+                            <select>
+                                <option value="1">Employed</option>
+                                <option value="2">Unemplyed</option>
+                                <option value="3">Business</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form style="padding-top: 10px;">
+                            <label for="income" style="color: green; font-family: sans-serif;"><b>Income</b></label>
+                            <br>
+                            <input type="range" min="20K" max="100K">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form style="padding-top: 10px;">
+                            <label for="upload" style="color: green; font-family: sans-serif;"><b>Upload Profile Picture</b></label>
+                            <br>
+                            <input type="file">
+                        </form>
+                    </td>
+                    <td>
+                        <form style="padding-top: 10px;">
+                             <label for="age" style="color: green; font-family: sans-serif;"><b>Age</b></label>
+                             <br>
+                             <input type="number">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form style="padding-top: 10px;">
+                            <label style="color: green; font-family: sans-serif;"><b>Bio</b></label>
+                            <br>
+                            <textarea cols="30" rows="10" placeholder="Enter about yourself:"></textarea>
+                        </form>
+                    </td>
+                </tr>
+        </table>
+    </fieldset>
+    <button style="background-color: green; color: white; padding: 10px; border-radius: 5px;" >
+        Create
+    </button>
+</body>
+</body>
+</html>
